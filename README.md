@@ -6,7 +6,7 @@
 | | |
 |---|---|
 | **Author** | Devavrat Yadav |
-| **Original author** | Taimuri Jlal - original project brief, scenario and SoA template ([source-material](source-material/)) |
+| **Original author** | Taimuri Jlal - original project brief, scenario and SoA template |
 | **Organisation** | Progress Technologies |
 | **Standard** | ISO/IEC 27001:2022 (incl. Amendment 1:2024), Annex A |
 
