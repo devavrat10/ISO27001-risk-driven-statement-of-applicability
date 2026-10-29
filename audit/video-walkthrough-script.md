@@ -1,0 +1,16 @@
+> **Progress Technologies** · ISO/IEC 27001:2022 · Document ID PT-ISMS-SOA-001 · v1.0 · Author: Devavrat Yadav · Original author: Taimuri Jlal
+
+# Video walkthrough script — the most controversial exclusion
+
+The most contestable exclusion is the AWS-inherited cluster 7.4, 7.5 and 7.11 (ED-02), because it depends on a supplier rather than on a fact about Progress. The script runs about five minutes at a steady speaking pace.
+
+| Time | On screen | Narration |
+| --- | --- | --- |
+| 0:00–0:30 | Title slide, then SoA row for 7.5 | "I'm Devavrat Yadav. In Progress Technologies' Statement of Applicability, controls 7.4, 7.5 and 7.11 are marked not applicable because AWS runs the data centres. That is the exclusion an auditor is most likely to challenge, so I'll defend it in five minutes." |
+| 0:30–1:15 | Architecture diagram: remote laptops, AWS eu-west-1 | "Progress has 85 remote staff, no offices and no servers. The platform runs entirely on AWS in eu-west-1. Physical security monitoring, fire and flood protection, and power and cooling are things AWS builds, runs and is audited on. Progress has no site where it could operate these controls." |
+| 1:15–2:15 | Exclusion test table (section 5.2) | "Excluding a control is not the same as ignoring a risk. The risk, third-party breach of AWS, is R-005, and it stays in our register. What I removed is only the controls Progress itself would operate. The risk is treated by supplier controls 5.19 to 5.23, and by our own resilience controls 5.29, 5.30 and 8.14: multi-AZ design, recovery plans and restore tests. The exclusion passes only if five tests pass, including that the inherited control is backed by current evidence." |
+| 2:15–3:15 | AWS Artifact reports, review record, shared-responsibility matrix | "Here is the evidence. These are AWS's current ISO 27001 certificate and SOC reports, downloaded from AWS Artifact. This is our annual review: who reviewed, when, what scope, and what exceptions were noted. And this is our shared-responsibility matrix, which says that region and availability-zone choice, backups and recovery belong to Progress, not AWS." |
+| 3:15–4:15 | ED-02 question list | "Three challenges to expect. First: how do you know AWS's controls work? Answer: independent audit reports, reviewed annually. Second: what if a report shows an exception? Answer: it goes to the risk owner, the exclusion is re-evaluated and the SoA is reissued if physical or environmental controls are affected. Third: isn't this just trusting a supplier? Answer: it is relying on a supplier with evidence, which is what 5.22 requires." |
+| 4:15–5:00 | Re-evaluation triggers; closing slide | "The exclusion stays valid only while three things hold: we host only on AWS, we use multiple availability zones, and our AWS assurance evidence is current. If any changes, we re-evaluate. And if the auditor prefers, the fallback is simple: mark these three controls applicable, implemented by inheritance from AWS, with the same evidence. Either way the risk is treated and the position is defensible. Thank you." |
+
+**Recording checklist.** Have the three evidence artefacts open and dated before recording; do not show customer data; keep the on-screen SoA version number visible; state the date of the AWS review aloud.

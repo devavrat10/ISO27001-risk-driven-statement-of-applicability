@@ -1,0 +1,1 @@
+`Progress_Technologies_SoA_Workbook.xlsx` - working version of the SoA with live formulas: Cover, Summary, SoA (filters, drop-downs, evidence-validation flag), Exclusions, Risk Register, Traceability, Evidence Index, Actions, Additional Controls.
